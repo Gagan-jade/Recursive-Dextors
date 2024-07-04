@@ -1,0 +1,434 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+.body-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:5000px;
+    width:100%;
+}
+.div-1{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:10px;
+}
+
+.div-2{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.div-3{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.div-4{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.div-5{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.div-6{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.div-7{
+    height:400px;
+    width:1300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+
+
+.holder{
+    height:150px;
+    width:150px;
+    background-color: rgb(87, 87, 243);
+} 
+
+
+
+#header {
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(87, 87, 243);
+}
+
+#nav-left {
+    display: flex;
+    justify-content:space-evenly;
+    width: 216.64px;
+    height: 60px;
+}
+
+#logo {
+    width: 113px;
+    height: 60px;
+    background-image: url(Amazon_Logo.png);
+    background-size: cover;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 90.64px;
+}
+
+.iconAndText {
+    display: flex;
+}
+
+#India {
+    margin-left: 3px;
+    color: #ffffff;
+}
+
+#DeliverTo {
+    color: #CCCCCC;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    width: 918.71px;
+    height: 60px;
+}
+
+.innerNavbar {
+    display: flex;
+}
+
+#dropBox {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #3d6cab;
+    border: 2px solid black;
+    width: 45px;
+}
+
+#options {
+    height: auto;
+    width: auto;
+    background-color: white;
+    color: black;
+}
+
+.searchField {
+    display: flex;
+    align-items: center;
+    color: black;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 860px;
+    font-size: medium;
+    background-color: #ffffff;
+}
+
+#searchBar {
+    color: black;
+    font-size: medium;
+    margin-left: 8px;
+    outline: none;
+    border: none;
+    width: 782px;
+}
+
+.LensIcon {
+    height: 20px;
+    width: 20px;
+    background-image: url(LensIcon.png);
+    background-size: cover;
+    margin-right: 5px;
+}
+
+.searchIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 45px;
+    height: 40px;
+    background-color: #febd68;
+}
+
+#anchors {
+    width: 383.85px;
+    height: 60px;
+    display: flex;
+}
+
+.language {
+    width: 73.38px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eng {
+    height: 16px;
+    width: 20px;
+    background-image: url(AmericaFlag.png);
+    background-size: cover;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+#EN {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 8px;
+    font-size: small;
+}
+
+.login {
+    margin-left: 2px;
+    height: 50px;
+    width: 131.53px;
+}
+
+#helloText {
+    font-size: 12px;
+    margin-top: 15px;
+    opacity: 80%;
+}
+
+.dropdownIconClass {
+    display: flex;
+}
+
+#dropdownIcon {
+    margin-left: 5px;
+}
+
+#AccountsAndListsText {
+    font-size: 14px;
+}
+
+.returns {
+    width: 79.95px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.orders {
+    margin-top: 10px;
+}
+
+#returns {
+    font-size: 12px;
+    opacity: 80%;
+}
+
+#orderText {
+    font-size: 14px;
+}
+
+.cart {
+    width: 84px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#cartIcon {
+    margin-top: 10px;
+}
+
+#cartText {
+    margin-top: 30px;
+    font-size: small;
+}
+.border {
+    border: 1px transparent;
+    height: 55px;
+    width: auto;
+}
+.border:hover {
+    border: 0.3px white solid;
+}
+.border2{
+    border: 1px transparent;
+    height:35px;
+    width:auto;
+}
+.border2:hover{
+    border: 0.3px white solid;
+}
+.head2{
+    height:39px;
+    background-color:#232f3e;
+}
+.head2Centering{
+    display:flex;
+    align-items:center;
+}
+.leftHead2{
+    height:100%;
+    width:500px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size:14px;
+}
+.hamburgerIcon{
+    display:flex;
+}
+#hamburgerIconID{
+    margin-top:1px;
+    margin-right:5px;
+}
+.section{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container{
+    width:100%;
+    height:100vh;
+}
+.backgroundImg{
+    height:600px;
+    width:100%;
+    background-image:url(MainPagePic.jpg);
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.amazonINLink{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:97%;
+    height:40px;
+    color:black;
+    font-size: 15px;
+    background-color:white;   
+}
+
+.sectionBody{
+    height:100vh;
+    width:95%;
+}
+.subdiv-1{
+    background-image:url("analgesic3.jpeg");
+    background-size: cover;
+}
+.subdiv-2{
+    background-image:url("analgesic1.webp");
+    background-size: cover;
+}
+.subdiv-3{
+    background-image:url("analgesic2.webp");
+    background-size: cover;
+}
+.subdiv-4{
+    background-image:url("antibio1.webp");
+    background-size: cover;
+}
+.subdiv-5{
+    background-image:url("antibio2.webp");
+    background-size: cover;
+}
+.subdiv-6{
+    background-image:url("antibio3.jpeg");
+    background-size: cover;
+}
+.sub-subdiv-1{
+    background-image:url("antivi1.jpeg");
+    background-size: cover;
+}
+.sub-subdiv-2{
+    background-image:url("antivi2.webp");
+    background-size: cover;
+}
+.sub-subdiv-3{
+    background-image:url("antivi3.webp");
+    background-size: cover;
+}
+.sub-subdiv-4{
+    background-image:url("antifun1.webp");
+    background-size: cover;
+}
+.sub-subdiv-5{
+    background-image:url("antifun2.webp");
+    background-size: cover;
+}
+.sub-subdiv-6{
+    background-image:url("antifun3.jpeg");
+    background-size: cover;
+}
+.sub-sub-subdiv-1{
+    background-image:url("antibio3.jpeg");
+    background-size: cover;
+}
+.sub-sub-subdiv-2{
+    background-image:url("antithi3.webp");
+    background-size: cover;
+}
+.sub-sub-subdiv-3{
+    background-image:url("antithi2.webp");
+    background-size: cover;
+}
+.sub-sub-subdiv-4{
+    background-image:url("antithi1.webp");
+    background-size: cover;
+}
+.sub-sub-subdiv-5{
+    background-image:url("antide3.jpeg");
+    background-size: cover;
+}
+.sub-sub-subdiv-6{
+    background-image:url("antide2.webp");
+    background-size: cover;
+}
