@@ -1,0 +1,2 @@
+admin.html is the actual dashboard and the highllight "emergency" part is also written in this page which when clicked shows the nearest hospital and calls 108 when pressed again 
+if you want to check out our login page and registration page it could be done there are two seperate files for it which we failed to connect it to a database
